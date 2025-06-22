@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body{
+  font-family: "Ysabeau Infant";
+}
+h1,h2,h3,p{
+  font-family: "Ysabeau Infant";
+}
