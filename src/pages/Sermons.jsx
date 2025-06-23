@@ -6,7 +6,7 @@ const Sermons = () => {
   const [activeTab, setActiveTab] = useState('sermons')
 
   return (
-    <div className="px-4 py-8 bg-[#FAF2E8] min-h-screen">
+    <div className=" bg-[#FAF2E8] min-h-screen px-6 py-16  pt-25">
       <h1 className="text-4xl font-extrabold text-center text-[#334238] mb-8">Grow in the Word</h1>
       <div className="flex justify-center gap-6 mb-10">
         <button
