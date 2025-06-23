@@ -41,7 +41,7 @@ const Header = () => {
             }}
      >
         <div className='w-40 h-[60%] flex justify-center items-center'>
-            <img src="/images/genzlogo.png" alt="" className='w-15' />
+            <img src="/images/genzlogo.png" alt="" className='w-15' onClick={()=>navigate("/")} />
             <h3 className='text-[14px] text-[#FAF2E8] font-medium'>Gen-Z for Christ</h3>
         </div>
         <div className='hidden md:flex w-[50%] h-[60%]  items-center relative'>
