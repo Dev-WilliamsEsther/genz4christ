@@ -24,7 +24,7 @@ const sermons = [
 
 const Sermons = () => {
   return (
-    <div className='min-h-screen bg-[#334238] text-[#FAF2E8] px-6 py-12'>
+    <div className='min-h-screen bg-[#334238] text-[#FAF2E8] px-6 pt-17 py-12'>
       <h1 className='text-4xl md:text-6xl font-bold mb-10 text-center'>Sermons</h1>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>

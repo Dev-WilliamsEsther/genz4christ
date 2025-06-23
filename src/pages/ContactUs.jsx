@@ -5,7 +5,7 @@ import { SiTiktok } from 'react-icons/si';
 
 const ContactUs = () => {
     return (
-        <div className="min-h-screen bg-[#334238] text-[#FAF2E8] px-6 py-16">
+        <div className="min-h-screen bg-[#334238] text-[#FAF2E8] px-6 pt-20 py-16">
             {/* Hero Section */}
             <div className="text-center mb-12">
                 <h1 className="text-4xl md:text-6xl font-bold">We’d Love to Hear From You</h1>

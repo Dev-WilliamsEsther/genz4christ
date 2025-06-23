@@ -56,12 +56,17 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className="px-4 py-12 bg-[#334238]">
-      <h2 className="text-3xl font-bold text-center mb-10">Meet the Leadership</h2>
-      
+    <section className="px-4 py-12 pt-16 pb-16 bg-[#334238]">
+      <h2 className="text-3xl font-bold text-center mb-10">
+        Meet the Leadership
+      </h2>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {teamMembers.map((member, index) => (
-          <div key={index} className="relative w-full h-96 overflow-hidden rounded-xl group">
+          <div
+            key={index}
+            className="relative w-full h-96 overflow-hidden rounded-xl group"
+          >
             <img
               src={member.image}
               alt={member.name}

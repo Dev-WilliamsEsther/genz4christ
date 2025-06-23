@@ -41,7 +41,7 @@ const opportunities = [
 
 const GetInvolved = () => {
   return (
-    <div className="min-h-screen bg-[#334238] px-6 py-16 text-[#FAF2E8]">
+    <div className="min-h-screen bg-[#334238] px-6 py-16 text-[#FAF2E8] pt-20">
       {/* Hero */}
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Be the Fire. Be the Movement.</h1>
